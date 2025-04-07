@@ -14,7 +14,7 @@ services:
       target: development # Use the 'development' target to build the image for development.
     ports:
       - 8080:8080
-      - 8000:8000 # Expose the debugger port (optional, for remote debugging)
+      - 8000:8000 
 
 # The commented out section below is an example of how to define a PostgreSQL
 # database that your application can use. `depends_on` tells Docker Compose to
